@@ -1,2 +1,6 @@
 # applied-SWE-Group-CW
 Group coursework for software engineering
+
+-Discord group made
+-Team leader assigned: Kacper
+-Meeting to do. Time: Saturday. Place: Discord
