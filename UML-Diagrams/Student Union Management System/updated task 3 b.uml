@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_azb7gLmQEfCHcLHd9HqFRw" name="Updated Task 3b">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_a3IvwLmQEfCHcLHd9HqFRw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_a2pAgLmQEfCHcLHd9HqFRw" name="Create Union Event" node="_AGnD0LmhEfCP2sRG3aNM1Q _XJFL0LmfEfCP2sRG3aNM1Q _GJ4fwLmfEfCP2sRG3aNM1Q _mSUDgLmZEfCP2sRG3aNM1Q _TRBrQLmWEfCP2sRG3aNM1Q _SecXwLmWEfCP2sRG3aNM1Q _RqjcsLmWEfCP2sRG3aNM1Q _QmmFULmWEfCP2sRG3aNM1Q _PKEc8LmWEfCP2sRG3aNM1Q _M3vN8LmWEfCP2sRG3aNM1Q _PO0E8LmUEfCP2sRG3aNM1Q _OBhLYLmUEfCP2sRG3aNM1Q _MTUkMLmUEfCP2sRG3aNM1Q _Jy1kcLmUEfCP2sRG3aNM1Q _Od4pMLmSEfCP2sRG3aNM1Q _NrXAELmSEfCP2sRG3aNM1Q _NMersLmSEfCP2sRG3aNM1Q _MnOpkLmSEfCP2sRG3aNM1Q _Ltwq8LmSEfCP2sRG3aNM1Q __DSY4LmQEfCHcLHd9HqFRw _-DJxkLmQEfCHcLHd9HqFRw _ds_iwLm1EfCP2sRG3aNM1Q" group="_sWuMELmQEfCHcLHd9HqFRw _qntFgLmQEfCHcLHd9HqFRw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6oUlQLmXEfCP2sRG3aNM1Q" target="_Ltwq8LmSEfCP2sRG3aNM1Q" source="_Jy1kcLmUEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eoLe0LmYEfCP2sRG3aNM1Q" target="_M3vN8LmWEfCP2sRG3aNM1Q" source="_Ltwq8LmSEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PvLYULmaEfCP2sRG3aNM1Q" inPartition="_sWuMELmQEfCHcLHd9HqFRw" target="_mSUDgLmZEfCP2sRG3aNM1Q" source="_PKEc8LmWEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_W1y1sLmaEfCP2sRG3aNM1Q" name="[yes]" inPartition="_sWuMELmQEfCHcLHd9HqFRw" target="_QmmFULmWEfCP2sRG3aNM1Q" source="_mSUDgLmZEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2fpYULmaEfCP2sRG3aNM1Q" inPartition="_qntFgLmQEfCHcLHd9HqFRw" target="_OBhLYLmUEfCP2sRG3aNM1Q" source="_MTUkMLmUEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3naRoLmaEfCP2sRG3aNM1Q" inPartition="_qntFgLmQEfCHcLHd9HqFRw" target="_PO0E8LmUEfCP2sRG3aNM1Q" source="_OBhLYLmUEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_RmwTELmcEfCP2sRG3aNM1Q" inPartition="_sWuMELmQEfCHcLHd9HqFRw" target="_RqjcsLmWEfCP2sRG3aNM1Q" source="_QmmFULmWEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Td6pALmcEfCP2sRG3aNM1Q" inPartition="_sWuMELmQEfCHcLHd9HqFRw" target="_PKEc8LmWEfCP2sRG3aNM1Q" source="_M3vN8LmWEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wMftULmcEfCP2sRG3aNM1Q" inPartition="_sWuMELmQEfCHcLHd9HqFRw" target="_TRBrQLmWEfCP2sRG3aNM1Q" source="_SecXwLmWEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xgEYkLmdEfCP2sRG3aNM1Q" target="_Jy1kcLmUEfCP2sRG3aNM1Q" source="_-DJxkLmQEfCHcLHd9HqFRw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Spt6ALmeEfCP2sRG3aNM1Q" target="_MnOpkLmSEfCP2sRG3aNM1Q" source="_M3vN8LmWEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YE3UELmeEfCP2sRG3aNM1Q" target="_MTUkMLmUEfCP2sRG3aNM1Q" source="_MnOpkLmSEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cX854LmeEfCP2sRG3aNM1Q" target="_NMersLmSEfCP2sRG3aNM1Q" source="_MTUkMLmUEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ohamELmeEfCP2sRG3aNM1Q" target="_PKEc8LmWEfCP2sRG3aNM1Q" source="_NMersLmSEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Tf9wELmfEfCP2sRG3aNM1Q" name="[no]" inPartition="_sWuMELmQEfCHcLHd9HqFRw" target="_GJ4fwLmfEfCP2sRG3aNM1Q" source="_mSUDgLmZEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XJxvYLmfEfCP2sRG3aNM1Q" inPartition="_sWuMELmQEfCHcLHd9HqFRw" target="_XJFL0LmfEfCP2sRG3aNM1Q" source="_GJ4fwLmfEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_bDDHALmfEfCP2sRG3aNM1Q" target="_MTUkMLmUEfCP2sRG3aNM1Q" source="_XJFL0LmfEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Bm0u0LmgEfCP2sRG3aNM1Q" target="_Od4pMLmSEfCP2sRG3aNM1Q" source="_PO0E8LmUEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kip_kLmgEfCP2sRG3aNM1Q" target="_GJ4fwLmfEfCP2sRG3aNM1Q" source="_NrXAELmSEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_48m7QLmgEfCP2sRG3aNM1Q" target="_SecXwLmWEfCP2sRG3aNM1Q" source="_Od4pMLmSEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_E1LEsLmhEfCP2sRG3aNM1Q" target="_AGnD0LmhEfCP2sRG3aNM1Q" source="_TRBrQLmWEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_F8qRMLmhEfCP2sRG3aNM1Q" target="__DSY4LmQEfCHcLHd9HqFRw" source="_AGnD0LmhEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zSgvILm0EfCP2sRG3aNM1Q" inPartition="_sWuMELmQEfCHcLHd9HqFRw" target="_SecXwLmWEfCP2sRG3aNM1Q" source="_RqjcsLmWEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ft8G0Lm1EfCP2sRG3aNM1Q" name="validation passed?" inPartition="_qntFgLmQEfCHcLHd9HqFRw" target="_ds_iwLm1EfCP2sRG3aNM1Q" source="_OBhLYLmUEfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_igGscLm1EfCP2sRG3aNM1Q" name="[no]" target="_NrXAELmSEfCP2sRG3aNM1Q" source="_ds_iwLm1EfCP2sRG3aNM1Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oPt6oLm1EfCP2sRG3aNM1Q" name="[yes]" inPartition="_qntFgLmQEfCHcLHd9HqFRw" target="_PO0E8LmUEfCP2sRG3aNM1Q" source="_ds_iwLm1EfCP2sRG3aNM1Q"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_qntFgLmQEfCHcLHd9HqFRw" name="Union Officer" node="_Jy1kcLmUEfCP2sRG3aNM1Q _MTUkMLmUEfCP2sRG3aNM1Q _OBhLYLmUEfCP2sRG3aNM1Q _PO0E8LmUEfCP2sRG3aNM1Q _ds_iwLm1EfCP2sRG3aNM1Q" edge="_2fpYULmaEfCP2sRG3aNM1Q _3naRoLmaEfCP2sRG3aNM1Q _ft8G0Lm1EfCP2sRG3aNM1Q _oPt6oLm1EfCP2sRG3aNM1Q"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_sWuMELmQEfCHcLHd9HqFRw" name="USU/Union System" node="_M3vN8LmWEfCP2sRG3aNM1Q _PKEc8LmWEfCP2sRG3aNM1Q _QmmFULmWEfCP2sRG3aNM1Q _RqjcsLmWEfCP2sRG3aNM1Q _SecXwLmWEfCP2sRG3aNM1Q _TRBrQLmWEfCP2sRG3aNM1Q _mSUDgLmZEfCP2sRG3aNM1Q _GJ4fwLmfEfCP2sRG3aNM1Q _XJFL0LmfEfCP2sRG3aNM1Q" edge="_PvLYULmaEfCP2sRG3aNM1Q _W1y1sLmaEfCP2sRG3aNM1Q _RmwTELmcEfCP2sRG3aNM1Q _Td6pALmcEfCP2sRG3aNM1Q _wMftULmcEfCP2sRG3aNM1Q _Tf9wELmfEfCP2sRG3aNM1Q _XJxvYLmfEfCP2sRG3aNM1Q _zSgvILm0EfCP2sRG3aNM1Q"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_-DJxkLmQEfCHcLHd9HqFRw" name="" outgoing="_xgEYkLmdEfCP2sRG3aNM1Q"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="__DSY4LmQEfCHcLHd9HqFRw" name="" incoming="_F8qRMLmhEfCP2sRG3aNM1Q"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_Ltwq8LmSEfCP2sRG3aNM1Q" name="Event Request" incoming="_6oUlQLmXEfCP2sRG3aNM1Q" outgoing="_eoLe0LmYEfCP2sRG3aNM1Q">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_LtzHMLmSEfCP2sRG3aNM1Q" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_MnOpkLmSEfCP2sRG3aNM1Q" name="Event Form" incoming="_Spt6ALmeEfCP2sRG3aNM1Q" outgoing="_YE3UELmeEfCP2sRG3aNM1Q">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_MnPQoLmSEfCP2sRG3aNM1Q" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_NMersLmSEfCP2sRG3aNM1Q" name="Event Data" incoming="_cX854LmeEfCP2sRG3aNM1Q" outgoing="_ohamELmeEfCP2sRG3aNM1Q">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_NMfSwLmSEfCP2sRG3aNM1Q" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_NrXAELmSEfCP2sRG3aNM1Q" name="Validation Issue" incoming="_igGscLm1EfCP2sRG3aNM1Q" outgoing="_kip_kLmgEfCP2sRG3aNM1Q">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_NrXnILmSEfCP2sRG3aNM1Q" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_Od4pMLmSEfCP2sRG3aNM1Q" name="Event Status" incoming="_Bm0u0LmgEfCP2sRG3aNM1Q" outgoing="_48m7QLmgEfCP2sRG3aNM1Q">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_Od5QQLmSEfCP2sRG3aNM1Q" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Jy1kcLmUEfCP2sRG3aNM1Q" name="Open event management dashboard" incoming="_xgEYkLmdEfCP2sRG3aNM1Q" outgoing="_6oUlQLmXEfCP2sRG3aNM1Q" inPartition="_qntFgLmQEfCHcLHd9HqFRw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_MTUkMLmUEfCP2sRG3aNM1Q" name="Review Event details" incoming="_YE3UELmeEfCP2sRG3aNM1Q _bDDHALmfEfCP2sRG3aNM1Q" outgoing="_2fpYULmaEfCP2sRG3aNM1Q _cX854LmeEfCP2sRG3aNM1Q" inPartition="_qntFgLmQEfCHcLHd9HqFRw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_OBhLYLmUEfCP2sRG3aNM1Q" name="Edit event details (if needed)" incoming="_2fpYULmaEfCP2sRG3aNM1Q" outgoing="_3naRoLmaEfCP2sRG3aNM1Q _ft8G0Lm1EfCP2sRG3aNM1Q" inPartition="_qntFgLmQEfCHcLHd9HqFRw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_PO0E8LmUEfCP2sRG3aNM1Q" name="Create event &amp; store record" incoming="_3naRoLmaEfCP2sRG3aNM1Q _oPt6oLm1EfCP2sRG3aNM1Q" outgoing="_Bm0u0LmgEfCP2sRG3aNM1Q" inPartition="_qntFgLmQEfCHcLHd9HqFRw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_M3vN8LmWEfCP2sRG3aNM1Q" name="Display event creation form" incoming="_eoLe0LmYEfCP2sRG3aNM1Q" outgoing="_Td6pALmcEfCP2sRG3aNM1Q _Spt6ALmeEfCP2sRG3aNM1Q" inPartition="_sWuMELmQEfCHcLHd9HqFRw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_PKEc8LmWEfCP2sRG3aNM1Q" name="Validate event data &amp; policy checks" incoming="_Td6pALmcEfCP2sRG3aNM1Q _ohamELmeEfCP2sRG3aNM1Q" outgoing="_PvLYULmaEfCP2sRG3aNM1Q" inPartition="_sWuMELmQEfCHcLHd9HqFRw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_QmmFULmWEfCP2sRG3aNM1Q" name="Create event &amp; store record" incoming="_W1y1sLmaEfCP2sRG3aNM1Q" outgoing="_RmwTELmcEfCP2sRG3aNM1Q" inPartition="_sWuMELmQEfCHcLHd9HqFRw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_RqjcsLmWEfCP2sRG3aNM1Q" name="Publish event announcment / event page" incoming="_RmwTELmcEfCP2sRG3aNM1Q" outgoing="_zSgvILm0EfCP2sRG3aNM1Q" inPartition="_sWuMELmQEfCHcLHd9HqFRw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_SecXwLmWEfCP2sRG3aNM1Q" name="Send notifications to stakeholders" incoming="_48m7QLmgEfCP2sRG3aNM1Q _zSgvILm0EfCP2sRG3aNM1Q" outgoing="_wMftULmcEfCP2sRG3aNM1Q" inPartition="_sWuMELmQEfCHcLHd9HqFRw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_TRBrQLmWEfCP2sRG3aNM1Q" name="Show confirmations" incoming="_wMftULmcEfCP2sRG3aNM1Q" outgoing="_E1LEsLmhEfCP2sRG3aNM1Q" inPartition="_sWuMELmQEfCHcLHd9HqFRw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_mSUDgLmZEfCP2sRG3aNM1Q" name="Validation passed?" incoming="_PvLYULmaEfCP2sRG3aNM1Q" outgoing="_W1y1sLmaEfCP2sRG3aNM1Q _Tf9wELmfEfCP2sRG3aNM1Q" inPartition="_sWuMELmQEfCHcLHd9HqFRw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_GJ4fwLmfEfCP2sRG3aNM1Q" name="Show Error messages" incoming="_Tf9wELmfEfCP2sRG3aNM1Q _kip_kLmgEfCP2sRG3aNM1Q" outgoing="_XJxvYLmfEfCP2sRG3aNM1Q" inPartition="_sWuMELmQEfCHcLHd9HqFRw"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_XJFL0LmfEfCP2sRG3aNM1Q" name="" incoming="_XJxvYLmfEfCP2sRG3aNM1Q" outgoing="_bDDHALmfEfCP2sRG3aNM1Q" inPartition="_sWuMELmQEfCHcLHd9HqFRw"/>
+    <node xmi:type="uml:DataStoreNode" xmi:id="_AGnD0LmhEfCP2sRG3aNM1Q" name="Event Record" incoming="_E1LEsLmhEfCP2sRG3aNM1Q" outgoing="_F8qRMLmhEfCP2sRG3aNM1Q">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_AGoR8LmhEfCP2sRG3aNM1Q" value="1"/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_ds_iwLm1EfCP2sRG3aNM1Q" name="" incoming="_ft8G0Lm1EfCP2sRG3aNM1Q" outgoing="_igGscLm1EfCP2sRG3aNM1Q _oPt6oLm1EfCP2sRG3aNM1Q" inPartition="_qntFgLmQEfCHcLHd9HqFRw"/>
+  </packagedElement>
+</uml:Model>

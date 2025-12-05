@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_zH-6wL5BEfCjl-6pMJcybw" name="Software design" URI="SoftwareDesign">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_zLndkL5BEfCjl-6pMJcybw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tq804L5CEfCjl-6pMJcybw" name="EventManager" visibility="public">
+    <ownedAttribute xmi:type="uml:ExtensionEnd" xmi:id="_NCp3kL5DEfCjl-6pMJcybw" name="validationHandler" visibility="private" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_T-J0oL5EEfCjl-6pMJcybw" name="validationHandler: Validation Handler" visibility="public"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nX1mIL5EEfCjl-6pMJcybw" name="promotionHandler" type="_0ke4gL5CEfCjl-6pMJcybw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qOaxsL5EEfCjl-6pMJcybw" name="repository" type="_CAjcEL5DEfCjl-6pMJcybw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5_OQor5HEfCjl-6pMJcybw" name="event" type="_vw0VML5CEfCjl-6pMJcybw" aggregation="shared" association="_5_NCgL5HEfCjl-6pMJcybw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5_O3sL5HEfCjl-6pMJcybw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5_O3sb5HEfCjl-6pMJcybw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__KpMor5HEfCjl-6pMJcybw" name="validationhandler" type="_y1_WYL5CEfCjl-6pMJcybw" aggregation="composite" association="__KnXcL5HEfCjl-6pMJcybw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__KpzsL5HEfCjl-6pMJcybw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__Kpzsb5HEfCjl-6pMJcybw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_A3nr0r5IEfCjl-6pMJcybw" name="promotionhandler" type="_0ke4gL5CEfCjl-6pMJcybw" aggregation="composite" association="_A3mdsL5IEfCjl-6pMJcybw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A3oS4L5IEfCjl-6pMJcybw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A3oS4b5IEfCjl-6pMJcybw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CCJlQr5IEfCjl-6pMJcybw" name="eventrepository" type="_CAjcEL5DEfCjl-6pMJcybw" aggregation="composite" association="_CCIXIL5IEfCjl-6pMJcybw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CCJlQ75IEfCjl-6pMJcybw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CCJlRL5IEfCjl-6pMJcybw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UlCOcL5EEfCjl-6pMJcybw" name="createEvent(e : Event)"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xUyXcL5EEfCjl-6pMJcybw" name="updateEvent(id: int, e: Event)"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3Cp5ML5EEfCjl-6pMJcybw" name="listEvents(events : string)" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vw0VML5CEfCjl-6pMJcybw" name="Event">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LvU8kL5FEfCjl-6pMJcybw" name="eventID : int"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MJyD8L5FEfCjl-6pMJcybw" name="name : string"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MlvAIL5FEfCjl-6pMJcybw" name="theme : string"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_M9D7AL5FEfCjl-6pMJcybw" name="date :  Date"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_N5PPYL5FEfCjl-6pMJcybw" name="venue : string"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OQkKQL5FEfCjl-6pMJcybw" name="scope : string"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7VPd0L5GEfCjl-6pMJcybw" name="eventmanager" type="_tq804L5CEfCjl-6pMJcybw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7VQE4L5GEfCjl-6pMJcybw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7VQE4b5GEfCjl-6pMJcybw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YDA7wL5FEfCjl-6pMJcybw" name="validate"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YYhRsL5FEfCjl-6pMJcybw" name="getSummary"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_y1_WYL5CEfCjl-6pMJcybw" name="ValidationHandler">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gvRhQL5FEfCjl-6pMJcybw" name="apiEndpoint : string"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_j6xz8L5FEfCjl-6pMJcybw" name="checkEvent(e:Event) : bool"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0ke4gL5CEfCjl-6pMJcybw" name="PromotionHandler">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-P1cIL5FEfCjl-6pMJcybw" name="apiEndpoint : string"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yBM8EL5FEfCjl-6pMJcybw" name="publish(e:Event)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CAjcEL5DEfCjl-6pMJcybw" name="EventRepository">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__yCOsL5FEfCjl-6pMJcybw" name="connection : DBConnection"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_CcozwL5GEfCjl-6pMJcybw" name="save(e:Event)"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_CuNr8L5GEfCjl-6pMJcybw" name="update(e:Event)"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_DErEIL5GEfCjl-6pMJcybw" name="findByld(id:int) : Event"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5_NCgL5HEfCjl-6pMJcybw" name="many" memberEnd="_5_OQor5HEfCjl-6pMJcybw _5_O3sr5HEfCjl-6pMJcybw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5_OQoL5HEfCjl-6pMJcybw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5_OQob5HEfCjl-6pMJcybw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5_O3sr5HEfCjl-6pMJcybw" name="eventmanager" type="_tq804L5CEfCjl-6pMJcybw" association="_5_NCgL5HEfCjl-6pMJcybw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__KnXcL5HEfCjl-6pMJcybw" memberEnd="__KpMor5HEfCjl-6pMJcybw __KqawL5HEfCjl-6pMJcybw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__KpMoL5HEfCjl-6pMJcybw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__KpMob5HEfCjl-6pMJcybw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__KqawL5HEfCjl-6pMJcybw" name="eventmanager" type="_tq804L5CEfCjl-6pMJcybw" association="__KnXcL5HEfCjl-6pMJcybw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A3mdsL5IEfCjl-6pMJcybw" memberEnd="_A3nr0r5IEfCjl-6pMJcybw _A3oS4r5IEfCjl-6pMJcybw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_A3nr0L5IEfCjl-6pMJcybw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A3nr0b5IEfCjl-6pMJcybw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A3oS4r5IEfCjl-6pMJcybw" name="eventmanager" type="_tq804L5CEfCjl-6pMJcybw" association="_A3mdsL5IEfCjl-6pMJcybw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CCIXIL5IEfCjl-6pMJcybw" memberEnd="_CCJlQr5IEfCjl-6pMJcybw _CCKMUL5IEfCjl-6pMJcybw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CCJlQL5IEfCjl-6pMJcybw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CCJlQb5IEfCjl-6pMJcybw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CCKMUL5IEfCjl-6pMJcybw" name="eventmanager" type="_tq804L5CEfCjl-6pMJcybw" association="_CCIXIL5IEfCjl-6pMJcybw"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vs6lQL5FEfCjl-6pMJcybw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vs7MUL5FEfCjl-6pMJcybw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
